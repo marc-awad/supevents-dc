@@ -1,0 +1,20 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://lien-qui-nexiste-pas"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://docs.stripe.com", "https://stripe.com"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MarkdownLinkCheck)"
+      }
+    }
+  ],
+  "timeout": "5s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
+}
