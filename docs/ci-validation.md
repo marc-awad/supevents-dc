@@ -40,7 +40,7 @@ Les trois problèmes ont été corrigés :
 
 ### Étape 3 — Vérification CODEOWNERS
 
-Le fichier `docs/12-annexes.md` étant assigné à `@marc-awad` dans CODEOWNERS, Alice a automatiquement été ajoutée comme reviewer de la PR lors du push.
+Le fichier `docs/12-annexes.md` étant assigné à `@marc-awad` dans CODEOWNERS, Marc a automatiquement été ajouté comme reviewer de la PR lors du push.
 
 **Résultat :** Marc AWAD ajoutée automatiquement comme reviewer ✅
 
