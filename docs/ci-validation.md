@@ -8,9 +8,10 @@ Ce fichier atteste du fonctionnement du workflow `docs-quality.yml` mis en place
 
 ## PR de test — Référence
 
-**Branche :** `test/ci-docs-quality-validation`  
-**PR :** `#4 — chore(ci): validate docs-quality workflow`  
-**Statut final :** ✅ Tous les jobs au vert après correction
+**Branche :** `test/ci-validation`  
+**PR :** `#7 — test: intentional broken link to trigger CI failure`  
+**URL :** https://github.com/marc-awad/supevents-dc/pull/7  
+**Statut final :** ✅ Tous les jobs au vert après correction (2/2 checks passed)
 
 ---
 
