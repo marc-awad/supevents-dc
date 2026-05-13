@@ -42,8 +42,3 @@ Les points suivants ont été identifiés comme potentiellement impactants pour 
 - **API Gateway avancée** : si des besoins d'API management (portail développeur, clés API, analytics) émergent, Kong peut être configuré en mode gestionnaire d'API plutôt que simple proxy.
 - **Search engine** : si le catalogue d'événements dépasse 10 000 entrées, l'ajout d'Elasticsearch ou d'une extension PostgreSQL full-text (pg_trgm) sera nécessaire.
 
----
-
-## A.4 — Test de validation CI (à supprimer après validation)
-
-[Lien de test cassé intentionnel](https://ce-lien-nexiste-pas.invalid)
