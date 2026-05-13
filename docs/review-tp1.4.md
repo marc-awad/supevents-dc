@@ -21,6 +21,6 @@
 
 ## Commentaires
 
-**Commentaire 1 (Baptiste) :** L'événement `event.cancelled` est mentionné dans §8 (tableau événements) mais son schéma JSON n'est pas documenté en détail — contrairement à `ticket.confirmed` et `payment.failed`. À corriger en TP 1.8 pour être complet.
+**Commentaire 1 (Killian) :** L'événement `event.cancelled` est mentionné dans §8 (tableau événements) mais son schéma JSON n'est pas documenté en détail — contrairement à `ticket.confirmed` et `payment.failed`. À corriger en TP 1.8 pour être complet.
 
-**Commentaire 2 (Alice) :** Dans le dictionnaire §6.4, l'entité `Notification` a le champ `body` marqué RGPD=Oui. Il faudrait vérifier que ce champ n'est pas inclus dans les événements RabbitMQ publiés (qui pourraient être loggués). **Vérification effectuée : le corps de l'email est généré par NotificationModule depuis un template, il n'est pas dans le payload de l'événement RabbitMQ. OK.**
+**Commentaire 2 (Marc) :** Dans le dictionnaire §6.4, l'entité `Notification` a le champ `body` marqué RGPD=Oui. Il faudrait vérifier que ce champ n'est pas inclus dans les événements RabbitMQ publiés (qui pourraient être loggués). **Vérification effectuée : le corps de l'email est généré par NotificationModule depuis un template, il n'est pas dans le payload de l'événement RabbitMQ. OK.**
