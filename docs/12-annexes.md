@@ -41,4 +41,3 @@ Les points suivants ont été identifiés comme potentiellement impactants pour 
 - **Progressive Web App (PWA)** : si une expérience mobile améliorée est demandée avant le développement d'une app native, une PWA peut être ajoutée sans refactoring majeur du backend.
 - **API Gateway avancée** : si des besoins d'API management (portail développeur, clés API, analytics) émergent, Kong peut être configuré en mode gestionnaire d'API plutôt que simple proxy.
 - **Search engine** : si le catalogue d'événements dépasse 10 000 entrées, l'ajout d'Elasticsearch ou d'une extension PostgreSQL full-text (pg_trgm) sera nécessaire.
-
