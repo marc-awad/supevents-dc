@@ -1,0 +1,64 @@
+# CODEOWNERS — SupEvents DCT
+# Ce fichier assigne chaque section de la DCT à son auteur principal.
+# L'auteur principal d'une section est celui qui l'a rédigée en premier
+# et qui doit être revieweur sur toute modification future.
+#
+# Format : <pattern> <@github-username>
+# Les règles sont évaluées de haut en bas — la dernière règle qui matche gagne.
+#
+# Auteurs du projet :
+#   @marc-awad    → Marc AWAD (responsable architecture et données)
+#   @kikidrain → Killian DOIZELET (responsable paiement et sécurité)
+
+# Règle de fallback — tout fichier non couvert spécifiquement
+# est assigné aux deux membres de l'équipe
+* @marc-awad @kikidrain
+
+# Page de garde et métadonnées
+docs/01-page-de-garde.md @marc-awad @kikidrain
+
+# Historique des révisions (mise à jour collective)
+docs/02-historique-revisions.md @marc-awad @kikidrain
+
+# Glossaire — Alice (architecte principale)
+docs/03-glossaire.md @marc-awad
+
+# Contexte et objectifs — Alice
+docs/04-contexte-objectifs.md @marc-awad
+
+# Périmètre et limites — Baptiste
+docs/05-perimetre-limites.md @kikidrain
+
+# Architecture générale — Alice (vue logique et données)
+docs/06-architecture-generale/06.1-vue-logique.md @marc-awad
+docs/06-architecture-generale/06.2-vue-processus.md @marc-awad @kikidrain
+docs/06-architecture-generale/06.3-vue-deploiement.md @kikidrain
+docs/06-architecture-generale/06.4-vue-donnees.md @marc-awad
+
+# Conception détaillée des modules
+docs/07-conception-detaillee/07-modules.md @marc-awad @kikidrain
+
+# Interfaces et contrats d'API — Baptiste
+docs/08-interfaces-api.md @kikidrain
+
+# Exigences transverses — Baptiste (STRIDE et sécurité) + Alice (RGPD)
+docs/09-exigences-transverses.md @kikidrain @marc-awad
+
+# Matrice de traçabilité — Alice
+docs/10-matrice-tracabilite.md @marc-awad
+
+# ADR — auteur par décision
+docs/adr/ADR-001.md @marc-awad @kikidrain
+docs/adr/ADR-002.md @marc-awad @kikidrain
+docs/adr/ADR-003.md @kikidrain
+
+# Qualité et CI — Baptiste
+docs/audit-qualite.md @kikidrain
+docs/ci-validation.md @kikidrain
+
+# Annexes
+docs/12-annexes.md @marc-awad @kikidrain
+
+# Fichiers de configuration CI
+.github/workflows/ @kikidrain
+.markdownlint.json @kikidrain
